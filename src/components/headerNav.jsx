@@ -1,12 +1,12 @@
 import "../style/acceuil.css";
 import { Link } from "react-router-dom";
+import kasaRed from "../asset/kasaRed.svg";
 
 export function HeaderNav() {
-  const title = "Kasa";
   return (
     <div className="nav">
       <li>
-        <h1 className="title">{title}</h1>
+        <img className="logoKasa" alt="logo" src={kasaRed} />
       </li>
       <div className="flex-end">
         <li>

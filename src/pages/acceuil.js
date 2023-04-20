@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "../style/acceuil.css";
-import { API_APPT } from "../global";
 import { Link } from "react-router-dom";
 import Header from "../components/banner.jsx";
+
 export function Acceuil() {
   const [logements, setLogements] = useState([]);
 
   useEffect(() => {
-    fetch(API_APPT)
+    fetch("/appt.json")
       .then((response) => response.json())
       .then((data) => {
         setLogements(data);

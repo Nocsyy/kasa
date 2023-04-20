@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../style/error.css";
+
 export function Error() {
   return (
     <div className="ctn-error">

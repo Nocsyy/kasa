@@ -105,46 +105,15 @@ font-family: 'montserrat';
     justify-content: space-between;
 }
 .ctn-description, .ctn-equipments{
-    width: 40%; 
+    width: 45%; 
     color: #FF6060;
     border-radius: 10px;
 
 }
-.volet-description, .volet-equipments {
-    width: 100%;
-    height: 5vh;
-    background-color:#FF6060;
-    color: white;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.volet-description p, .volet-equipments p {
-    margin-left: 1vw;
-    font-family: 'montserrat';
-    font-weight: 500;
-}
 
-.volet-description button, .volet-equipments button{
-    background-color: rgba(255, 255, 255, 0);
-    color: white;
-    border: none;
-    margin-right: 1vw;
-}
-.description-logement P, .description-equipments {
-    margin: 0;
-    font-family: 'montserrat';
-    font-weight: 400;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: #F6F6F6;
-}
+
+
+
 
 
 @media only screen and (max-width: 600px) {
