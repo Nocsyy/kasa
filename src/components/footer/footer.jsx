@@ -1,5 +1,5 @@
-import "../style/acceuil.css";
-import kasaWhite from "../asset/kasaWhite.svg";
+import "./footer.css";
+import kasaWhite from "../../asset/kasaWhite.svg";
 export function Footer() {
   return (
     <div>

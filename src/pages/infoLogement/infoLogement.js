@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import Collapse from "../../components/collapse";
+import Collapse from "../../components/collapse/collapse";
 import "../infoLogement/infoLogement.css";
-import Title from "../../components/title";
-import Localisation from "../../components/localisation";
-import Tags from "../../components/tag";
-import Owner from "../../components/owner";
-import Rating from "../../components/rating";
-import Caroussel from "../../components/caroussel";
+import Title from "../../components/title/title";
+import Localisation from "../../components/localisation/localisation";
+import Tags from "../../components/tags/tag";
+import Owner from "../../components/owner/owner";
+import Rating from "../../components/rating/rating";
+import Caroussel from "../../components/caroussel/caroussel";
 
 export function InfoLogement() {
   const [logement, setLogement] = useState(null);

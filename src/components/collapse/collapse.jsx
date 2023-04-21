@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./collapse.css";
 function Collapse (props){
     const [showVolet, setShowVolet] = useState(true);
     const toggleVolet = () => setShowVolet(!showVolet);
@@ -14,9 +15,9 @@ function Collapse (props){
         </div>
         {showVolet && (
           <div className="ctn-description-about">
-            <p className="description-about">
+            <span className="description-about">
               {props.text}
-            </p>
+            </span>
           </div>
         )}
       </div>

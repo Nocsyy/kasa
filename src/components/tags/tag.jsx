@@ -1,3 +1,4 @@
+import "./tag.css";
 function Tags (props){
 
     return(

@@ -1,0 +1,40 @@
+.photoLogement img{
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 25px;
+}
+.ctn-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-next, .btn-previous{
+    margin-top: -50vh;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0.241);
+    border: none;
+    padding-left: 2vw;
+    
+}
+.btn-next span, .btn-previous span{
+    margin-left: auto;
+    font-size: 50pt;
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .photoLogement img{
+        height: 30vh;
+    }
+    .ctn-btn{
+        width: 95vw;
+    }
+    .btn-next, .btn-previous{
+        margin-top: -30vh;
+    }
+    .btn-next span, .btn-previous span {
+        font-size: 25pt;
+    }
+}

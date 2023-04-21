@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./caroussel.css";
 
 
 function Caroussel (props){

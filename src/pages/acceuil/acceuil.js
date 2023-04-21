@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "../style/acceuil.css";
+import "./acceuil.css";
 import { Link } from "react-router-dom";
-import Header from "../components/banner.jsx";
+import Header from "../../components/banner/banner.jsx";
 
 export function Acceuil() {
   const [logements, setLogements] = useState([]);

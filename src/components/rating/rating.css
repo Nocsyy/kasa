@@ -1,0 +1,16 @@
+.ctn-star {
+    width: auto;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    
+}
+.ctn-star span{
+    margin-right: 0.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .ctn-star {
+    font-size: large;
+  }
+}

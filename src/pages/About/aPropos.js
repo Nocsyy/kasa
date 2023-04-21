@@ -1,5 +1,5 @@
-import Header from "../../components/banner";
-import Collapse from "../../components/collapse";
+import Header from "../../components/banner/banner";
+import Collapse from "../../components/collapse/collapse";
 import "./about.css";
 
 export function Apropos() {

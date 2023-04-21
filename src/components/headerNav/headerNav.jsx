@@ -1,6 +1,6 @@
-import "../style/acceuil.css";
+import "./headerNav.css";
 import { Link } from "react-router-dom";
-import kasaRed from "../asset/kasaRed.svg";
+import kasaRed from "../../asset/kasaRed.svg";
 
 export function HeaderNav() {
   return (

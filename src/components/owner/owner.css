@@ -1,0 +1,28 @@
+.bailleur{
+    padding-top: 2vw;
+    color: #FF6060;
+    display: flex;
+    flex-direction: row;
+}
+.bailleur p{
+font-family: 'montserrat';
+}
+.bailleur img{
+    width: 60px;
+    height: 60px;
+    margin-left: 1vw;
+    border-radius: 5vh;
+}
+@media only screen and (max-width: 600px) {
+    .bailleur{
+        width: auto;
+    }
+    .bailleur p{
+        width: auto;
+    }
+    .bailleur img{
+        width: 50px;
+        height: 50px;
+        margin-left: 3vw;
+    }
+}

@@ -1,3 +1,4 @@
+import "./owner.css"
 function Owner(props){
     return(
         <div className="bailleur">

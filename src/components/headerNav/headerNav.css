@@ -1,0 +1,33 @@
+.nav {
+    color: rgb(255, 110, 110);
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title {
+    color: rgb(255, 110, 110);
+}
+.logoKasa{
+    width: 150px;
+    height: 50px;
+}
+
+.flex-end{
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex-end a{
+    color: rgb(255, 110, 110);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+}
+.flex-end a:focus{
+    text-decoration: underline;
+}

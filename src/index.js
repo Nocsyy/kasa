@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HeaderNav } from "./components/headerNav.jsx";
-import { Acceuil } from "./pages/acceuil.js";
+import { HeaderNav } from "./components/headerNav/headerNav.jsx";
+import { Acceuil } from "./pages/acceuil/acceuil.js";
 import { Apropos } from "./pages//About/aPropos";
-import { Footer } from "./components/footer.jsx";
+import { Footer } from "./components/footer/footer.jsx";
 import { InfoLogement } from "./pages/infoLogement/infoLogement.js";
-import { Error } from "./components/error.jsx";
+import { Error } from "./components/error404/error.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

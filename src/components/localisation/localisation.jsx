@@ -1,3 +1,4 @@
+import "./localisation.css"
 function Localisation(props){
     return(
         <div className="localisationLogement">

@@ -1,3 +1,4 @@
+import "./rating.css"
 function Rating(props){
     return(
         <div className="ctn-star">
